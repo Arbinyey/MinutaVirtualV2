@@ -1,0 +1,23 @@
+* ,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body{
+  font-family: 'oswald', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.img-fluid{
+    width: 150px;
+}
+#rightseccionmenu{
+    text-decoration: none;
+}
+#footermenu{
+    background-color: #b59c61;
+}
+#boxiconmneu{
+    text-decoration: none;
+}
