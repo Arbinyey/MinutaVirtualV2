@@ -13,7 +13,10 @@ body{
     width: 150px;
 }
 #rightseccionmenu{
-    text-decoration: none;
+    background-image: url(../img/fodomenu.jpg);
+    background-repeat: no-repeat;
+    background-size: fixed;
+    background-position: center;
 }
 #footermenu{
     background-color: #b59c61;

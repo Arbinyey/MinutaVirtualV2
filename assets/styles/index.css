@@ -14,8 +14,8 @@ body{
   background: linear-gradient(#fff, #004964, #004964, #fff);
 }
 .c_userbox{
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 40%;
+  margin-bottom: 40%;
   box-shadow: 3px 2px 5px #252525;
 }
 .btn{
