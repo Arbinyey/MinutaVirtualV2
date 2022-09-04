@@ -16,7 +16,8 @@
       <div class="row">
         <div class="col-sm-5 text-center p-5 align-self-center" id="leftseccion">
           <div>
-            <h1><strong>S I M I V</strong></h1>
+            <h1 class="display-2"><strong>S I M I V</strong></h1>
+            <h3><strong>Sistema de Minutas Virtuales</strong></h3>
           </div>
           <div class="row">
             <div class="boxlogominuta align-self-center my-5">
@@ -25,7 +26,7 @@
           </div>
           <div>
             <br>
-            <p class="fs-4"> <strong>Sistema de Minutas Virtuales</strong>  para registrar las novedades en los puestos de servicio en los ERON y sedes administrativas de la <strong>Regional Noroeste</strong></p>
+            <p class="fs-4"> Aplicativo para registrar anotaciones y novedades en los puestos de servicio en los ERON y sedes administrativas de la <strong>Regional Noroeste</strong></p>
           </div>
         </div>
         <div class="col-sm-7" id="rightseccion" >
@@ -36,17 +37,16 @@
                 <div>
                   <h3>Inicio de sesión</h3>
                 </div>
-                <img src="./assets/img/logoreg.png" alt="Escudo regional INPEC" class="img-fluid w-25">
-                <form action="home.html" method="post" >
+                <img src="./assets/img/logoreg.png" alt="Escudo regional INPEC" class="img-fluid w-25 py-3">
+                <form action="validar.php" method="post" >
                   <div class="mb-3 mx-3">
-                    <label for="usuario" class="form-label pt-3">Usuario</label>
-                    <input type="text" placeholder="Ingresa tu usuario" class="form-control" id="usuario" aria-describedby="emailHelp">
+                    <input type="text" placeholder="Ingresa tu usuario" name="usuario" class="form-control" id="usuario">
                   </div>
                   <div class="mb-3 mx-3">
-                    <label for="Password" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="Password">
+                    <input type="password" placeholder="Su contraseña" class="form-control" name="contraseña" id="Password">
                   </div>
-                  <button type="submit" onclick="enviarformulario()" value = 'Enviar' class="btn btn-primary border-0">
+                  <h5>Ingresar</h5>
+                  <button type="submit" value = 'Ingresar' class="btn btn-primary border-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-check" width="80" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#004964" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <circle cx="9" cy="7" r="4" />
